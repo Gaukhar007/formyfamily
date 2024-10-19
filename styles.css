@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #f0f4ff
+}
+h1,p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+.images{
+    width: 270px;
+    height: 350px;
+    border-radius: 20px;
+}
+.mov{
+text-align: center;
+}
+.photos{
+    display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 10px;
+ 
+  padding: 10px;
+}
+.mwah{
+    position: absolute;
+    left: 780px;
+    top:35px;
+}
